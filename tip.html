@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<body>
+<link rel="stylesheet" href="/home/suneha/Desktop/tip/style.css">
+<h1>Tip Calculator</h1>
+<br/>
+<h3>An easy and comfortable way to calculate your tip.</h3>
+<section>
+<form>
+    <p>What was the total amount of the bill?</p>
+    <input id="amount" placeholder="amount" type="text">
+    <p>How was the service?</p>
+    <label for="service">Choose the kind of service: </label>
+    <select id="service" placeholder="choose service">
+        <option disabled selected hidden default>select</option>
+        <option value="0.3">30&#37; &#45; Outstanding</option>
+              <option value="0.2">20&#37; &#45; Good</option>
+              <option value="0.15">15&#37; &#45; It was OK</option>
+              <option value="0.1">10&#37; &#45; Bad</option>
+              <option value="0.05">5&#37; &#45; Terrible</option>
+    </select>
+</form>
+<p>How many people are sharing the bill?</p>
+<input id="people" type="number" placeholder="Enter the number">
+<button id="calculate" type="button">Calculate</button>
+<div id="result">
+    <p>
+        The tip is : 
+    </p>
+</div>
+</section>
+
+<script src="/home/suneha/Desktop/tip/calculate.js"></script>
+</body>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+body{
+    background-color: aquamarine;
+}
+body h1 {
+    font-family: "Staatliches", sans-serif;
+    font-size: 100px;
+    font-optical-sizing: 100px;
+    margin-left: 20px;
+    text-shadow: black ;
+    text-align: center;
+}
+
+body h3 {
+    font-family: "Zilla Slab", sans-serif;
+    font-size: 50px;
+    font-color: #ddd;
+    text-align: center;
+
+}
+
+section {
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    border: 2px solid #000;
+    max-width: 100%;
+    padding: 25px;
+    text-align:center;
+    background-color: blanchedalmond;
+    border-style: groove;
+}
+
+p, label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#amount {
+    border-radius: 10px;
+    border-color: #000;
+    height: 40px;
+    font-size: 21px;
+    
+}
+
+#amount :hover{
+    background-color: cornflowerblue;
+    max-height: 50px !important;
+}
+
+#service, #people, #calculate{
+    height:40px;
+    font-size: 21px;
+}
+
+#result {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    border: 2px dashed #000;
+    background-color:#ddd;
+    padding: 15px;
+}
